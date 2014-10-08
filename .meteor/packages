@@ -7,5 +7,5 @@ meteor-platform
 autopublish
 insecure
 http
-mrt:twilio
-
+mrt:moment
+mrt:twilio-meteor
