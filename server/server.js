@@ -12,10 +12,10 @@ Meteor.methods({
 	'sendCall':function(number){
 	client.calls.create({
 		url: "call.xml",
-		to: "+14155551212",
-		from: "+14158675309"
+		to: number,
+		from: phoneNumber
 	}, function(err, call) {
-		process.stdout.write(call.sid);
+		console.log(call.sid);
 	});
 		
 	}
