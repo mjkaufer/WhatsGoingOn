@@ -9,5 +9,5 @@ insecure
 http
 mrt:moment
 mrt:twilio-meteor
-mrt:bootstrap-3
+mrt:flat-ui
 
