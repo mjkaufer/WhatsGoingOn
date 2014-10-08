@@ -1,5 +1,7 @@
 var data = {};
+
 data = JSON.parse(Assets.getText("credentials.json"));
+
 Acc_SID = data.sid;
 Auth_token = data.authToken;
 var phoneNumber = data.from;
