@@ -10,7 +10,7 @@ twilioClient = Twilio(Acc_SID, Auth_token);
 
 Meteor.methods({
 	'sendCall':function(number){
-		client.calls.create({
+		twilioClient.calls.create({
 			url: "call.xml",
 			to: number,
 			from: phoneNumber
